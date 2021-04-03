@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.transportador.model;
+package br.com.alopes.microservice.transporter.model;
 
 import java.time.LocalDate;
 

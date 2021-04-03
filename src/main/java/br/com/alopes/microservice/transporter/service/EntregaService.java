@@ -1,12 +1,12 @@
-package br.com.alopes.microservice.transportador.service;
+package br.com.alopes.microservice.transporter.service;
 
-import br.com.alopes.microservice.transportador.dto.EntregaDTO;
-import br.com.alopes.microservice.transportador.dto.VoucherDTO;
-import br.com.alopes.microservice.transportador.model.Entrega;
+import br.com.alopes.microservice.transporter.dto.EntregaDTO;
+import br.com.alopes.microservice.transporter.dto.VoucherDTO;
+import br.com.alopes.microservice.transporter.model.Entrega;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alopes.microservice.transportador.repository.EntregaRepository;
+import br.com.alopes.microservice.transporter.repository.EntregaRepository;
 
 @Service
 public class EntregaService {

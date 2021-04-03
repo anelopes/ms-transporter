@@ -1,8 +1,8 @@
-package br.com.alopes.microservice.transportador.controller;
+package br.com.alopes.microservice.transporter.controller;
 
-import br.com.alopes.microservice.transportador.dto.EntregaDTO;
-import br.com.alopes.microservice.transportador.dto.VoucherDTO;
-import br.com.alopes.microservice.transportador.service.EntregaService;
+import br.com.alopes.microservice.transporter.dto.EntregaDTO;
+import br.com.alopes.microservice.transporter.dto.VoucherDTO;
+import br.com.alopes.microservice.transporter.service.EntregaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

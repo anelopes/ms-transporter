@@ -1,13 +1,13 @@
-package br.com.alopes.microservice.transportador;
+package br.com.alopes.microservice.transporter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransportadorApplication {
+public class TransporterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransportadorApplication.class, args);
+		SpringApplication.run(TransporterApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.transportador;
+package br.com.alopes.microservice.transporter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TransportadorApplicationTests {
+public class TransporterApplicationTests {
 
 	@Test
 	public void contextLoads() {

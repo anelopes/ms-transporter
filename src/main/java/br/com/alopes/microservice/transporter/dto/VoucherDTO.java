@@ -1,4 +1,4 @@
-package br.com.alopes.microservice.transportador.dto;
+package br.com.alopes.microservice.transporter.dto;
 
 import java.time.LocalDate;
 
