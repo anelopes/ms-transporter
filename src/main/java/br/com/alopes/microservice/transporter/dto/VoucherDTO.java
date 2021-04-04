@@ -4,23 +4,23 @@ import java.time.LocalDate;
 
 public class VoucherDTO {
 
-	private Long numero;
-	
-	private LocalDate previsaoParaEntrega;
+    private Long number;
 
-	public Long getNumero() {
-		return numero;
-	}
+    private LocalDate deliveryScheduled;
 
-	public void setNumero(Long numero) {
-		this.numero = numero;
-	}
+    public Long getNumber() {
+        return number;
+    }
 
-	public LocalDate getPrevisaoParaEntrega() {
-		return previsaoParaEntrega;
-	}
+    public void setNumber(Long number) {
+        this.number = number;
+    }
 
-	public void setPrevisaoParaEntrega(LocalDate previsaoParaEntrega) {
-		this.previsaoParaEntrega = previsaoParaEntrega;
-	}
+    public LocalDate getDeliveryScheduled() {
+        return deliveryScheduled;
+    }
+
+    public void setDeliveryScheduled(LocalDate deliveryScheduled) {
+        this.deliveryScheduled = deliveryScheduled;
+    }
 }
